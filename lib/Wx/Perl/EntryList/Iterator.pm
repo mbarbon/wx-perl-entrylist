@@ -15,7 +15,7 @@ sub attach {
 sub detach {
     my( $self ) = @_;
 
-    $entrylist->delete_subscriber( '*', $self );
+    $self->list->delete_subscriber( '*', $self );
 }
 
 sub _list_changed {
