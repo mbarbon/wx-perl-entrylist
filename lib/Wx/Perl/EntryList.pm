@@ -3,7 +3,15 @@ package Wx::Perl::EntryList;
 use strict;
 use base qw(Class::Publisher Class::Accessor::Fast);
 
+our $VERSION = '0.01';
+
 __PACKAGE__->mk_accessors( qw(entries) );
+
+=head1 NAME
+
+Wx::Perl::EntryList - dynamic list that can be diplayed in various controls
+
+=cut
 
 sub new {
     my( $class ) = @_;
