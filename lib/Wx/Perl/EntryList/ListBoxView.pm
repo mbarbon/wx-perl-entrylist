@@ -2,6 +2,18 @@ package Wx::Perl::EntryList::ListBoxView;
 
 use Wx;
 
+=head1 NAME
+
+Wx::Perl::EntryList::ListBoxView - display an entry list
+
+=head1 DESCRIPTION
+
+Uses a C<Wx::ListBox> to display an entry list.
+
+=head1 METHODS
+
+=cut
+
 use strict;
 use base qw(Wx::ListBox Class::Accessor::Fast);
 
